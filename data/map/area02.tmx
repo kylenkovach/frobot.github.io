@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="25" tilewidth="32" tileheight="32" backgroundcolor="#ffffff" nextobjectid="184">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32" tilecount="32" columns="8">
+  <image source="../img/map/area01_level_tiles.png" width="256" height="128"/>
+ </tileset>
+ <imagelayer name="background image" offsetx="61" offsety="-31">
+  <image source="../img/area02_bkg0.png" width="967" height="799"/>
+ </imagelayer>
+ <layer name="background" width="30" height="25">
+  <data encoding="base64">
+   EgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAA
+  </data>
+ </layer>
+ <objectgroup name="Entities">
+  <object id="127" name="mainPlayer" type="Entity" x="51" y="704" width="32" height="64">
+   <properties>
+    <property name="framewidth" value="64"/>
+    <property name="image" value="FROBOT_RUN_RIGHT"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="foreground" width="30" height="25">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <objectgroup name="collision">
+  <object id="3" x="1" y="2" width="29" height="797"/>
+  <object id="4" x="930.5" y="0.5" width="29" height="797"/>
+  <object id="5" x="32" y="-1" width="899" height="34"/>
+  <object id="6" x="31.5" y="767" width="899" height="34"/>
+  <object id="129" name="CoinEntity" x="62" y="520" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="130" name="CoinEntity" x="77" y="578" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="131" name="CoinEntity" x="112" y="617" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="132" name="CoinEntity" x="152" y="642" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="133" name="CoinEntity" x="193" y="670" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="134" name="CoinEntity" x="238" y="689" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="135" name="CoinEntity" x="275" y="704" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="136" name="CoinEntity" x="313" y="717" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="137" name="CoinEntity" x="352" y="731" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="138" name="CoinEntity" x="401" y="732" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="139" name="CoinEntity" x="453" y="730" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="140" name="CoinEntity" x="500" y="731" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="141" name="CoinEntity" x="551" y="732" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="142" name="CoinEntity" x="596" y="731" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="143" name="CoinEntity" x="647" y="732" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="144" name="CoinEntity" x="691" y="729" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="145" name="CoinEntity" x="742" y="711" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="146" name="CoinEntity" x="786" y="688" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="147" name="CoinEntity" x="823" y="669" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="148" name="CoinEntity" x="857" y="647" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="149" name="CoinEntity" x="896" y="635" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="150" name="CoinEntity" x="899" y="594" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="151" name="CoinEntity" x="898" y="556" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="152" name="CoinEntity" x="900" y="514" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="153" name="CoinEntity" x="895" y="478" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="154" name="CoinEntity" x="891" y="435" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="155" name="CoinEntity" x="875" y="397" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="156" name="CoinEntity" x="901" y="352" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="157" name="CoinEntity" x="54" y="478" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="158" name="CoinEntity" x="54" y="431" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="159" name="CoinEntity" x="57" y="378" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="160" name="CoinEntity" x="81" y="341" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="161" name="CoinEntity" x="104" y="298" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="162" name="CoinEntity" x="120" y="256" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="163" name="CoinEntity" x="143" y="217" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="164" name="CoinEntity" x="171" y="193" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="165" name="CoinEntity" x="206" y="164" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="166" name="CoinEntity" x="235" y="121" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="167" name="CoinEntity" x="261" y="84" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="168" name="CoinEntity" x="282" y="51" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="169" name="CoinEntity" x="314" y="27" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="170" name="CoinEntity" x="589" y="33" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="171" name="CoinEntity" x="838" y="38" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="172" name="CoinEntity" x="868" y="80" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="173" name="CoinEntity" x="900" y="103" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="174" name="CoinEntity" x="539" y="274" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="175" name="CoinEntity" x="583" y="291" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="176" name="CoinEntity" x="627" y="281" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="177" name="CoinEntity" x="601" y="247" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="178" name="CoinEntity" x="541" y="301" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="179" name="CoinEntity" x="805" y="296" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="180" name="CoinEntity" x="860" y="269" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="181" name="CoinEntity" x="801" y="252" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="182" name="CoinEntity" x="846" y="304" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+  <object id="183" name="CoinEntity" x="893" y="291" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="SPINNING_SEQUIN"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
